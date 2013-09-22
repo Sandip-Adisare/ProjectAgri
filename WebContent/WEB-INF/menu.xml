@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?> 
+ <menu> 
+    <menu label="Home" path="/home.htm" roles="user,admin">  
+    </menu> 
+    <menu label="Distributors" path="/distributors.htm"> 
+       <menu label="Add Distributor" path="/createDistributor.htm" roles="admin"/>
+       <menu label="View Distributor" path="/viewDistributor.htm" roles="admin"/>
+    </menu>
+    <menu label="Products" path="/products.htm"> 
+       <menu label="Add Product" path="/addProducts.htm" roles="admin"/>
+       <menu label="View Products" path="/viewProducts.htm" roles="admin"/>
+       <menu label="Delete Products" path="/deleteProducts.htm" roles="admin"/>
+    </menu>
+    <menu label="Customer" path="/customer.htm"> 
+       <menu label="Add Product" path="/customer.htm" roles="admin"/>
+    </menu> 
+ </menu>  
